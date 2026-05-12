@@ -1,0 +1,113 @@
+{
+  "M-OP": {
+    "rtd_weighted_pax": 2.178322334662748,
+    "rts_weighted_pax": 1.4287047640382642,
+    "ac_system_eur_per_pax": 0.9149157577926602,
+    "mc_system_eur_per_pax": 0.4166421336164542,
+    "mc_over_ac_system": 0.4553885208203774,
+    "boiteux_optimal_subsidy_pct": 54.46114791796226,
+    "rmse_eur": 8076775.806146844,
+    "mape_pct": 14.132347942237228,
+    "monotonicity_prices_pass": true,
+    "monotonicity_outputs_pass": true,
+    "concavity_strict_pass": false,
+    "concavity_approx_pass": true,
+    "max_eigenvalue": 8.729216155099031e-05,
+    "n_concavity_violations": 10,
+    "worst_concavity_obs": [
+      2024,
+      "L9/L10 Nord"
+    ],
+    "params": {
+      "alpha_L": 0.5739507046819458,
+      "alpha_E": 0.050231695210488474,
+      "alpha_O": 0.3758176001075658,
+      "beta1": 0.45,
+      "beta2": 0.25,
+      "gamma_LL": 0.1035786206835032,
+      "gamma_EE": 0.02673728768972739,
+      "gamma_OO": 0.09571928813711629,
+      "gamma_LE": -0.017298310118057148,
+      "gamma_LO": -0.08628031056544605,
+      "gamma_EO": -0.009438977571670244,
+      "delta_11": 0.05,
+      "delta_22": 0.05,
+      "delta_12": -0.05,
+      "rho_LY1": -0.04,
+      "rho_LY2": 0.02,
+      "rho_EY1": 0.01,
+      "rho_EY2": 0.01,
+      "rho_OY1": 0.03,
+      "rho_OY2": -0.03,
+      "lam": -0.005,
+      "sigma_LE": 0.4,
+      "sigma_LO": 0.6,
+      "sigma_EO": 0.5
+    }
+  },
+  "M-FU": {
+    "rtd_weighted_pax": 1.9642432681544766,
+    "rts_weighted_pax": 1.4287047640382644,
+    "ac_system_eur_per_pax": 1.2941667554106295,
+    "mc_system_eur_per_pax": 0.6428406788432947,
+    "mc_over_ac_system": 0.4967216752831254,
+    "boiteux_optimal_subsidy_pct": 50.32783247168746,
+    "rmse_eur": 44216247.68498226,
+    "mape_pct": 52.850451791236694,
+    "monotonicity_prices_pass": true,
+    "monotonicity_outputs_pass": true,
+    "concavity_strict_pass": false,
+    "concavity_approx_pass": false,
+    "max_eigenvalue": 0.008110492320644539,
+    "n_concavity_violations": 10,
+    "worst_concavity_obs": [
+      2024,
+      "L9/L10 Nord"
+    ],
+    "params": {
+      "alpha_L": 0.40575647745108256,
+      "alpha_E": 0.03551147431084486,
+      "alpha_O": 0.5587320482380727,
+      "beta1": 0.5,
+      "beta2": 0.2,
+      "gamma_LL": 0.09932906552812129,
+      "gamma_EE": 0.018566105824103833,
+      "gamma_OO": 0.1006043584816695,
+      "gamma_LE": -0.008645406435277812,
+      "gamma_LO": -0.09068365909284348,
+      "gamma_EO": -0.009920699388826023,
+      "delta_11": 0.05,
+      "delta_22": 0.05,
+      "delta_12": -0.05,
+      "rho_LY1": -0.04,
+      "rho_LY2": 0.02,
+      "rho_EY1": 0.01,
+      "rho_EY2": 0.01,
+      "rho_OY1": 0.03,
+      "rho_OY2": -0.03,
+      "lam": -0.003,
+      "sigma_LE": 0.4,
+      "sigma_LO": 0.6,
+      "sigma_EO": 0.5
+    }
+  },
+  "panel": {
+    "n_obs": 21,
+    "n_lines": 7,
+    "n_years": 3,
+    "lines": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L9/L10 Nord",
+      "L9/L10 Sud"
+    ],
+    "years": [
+      2023,
+      2024,
+      2025
+    ]
+  }
+}

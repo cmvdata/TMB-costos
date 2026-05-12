@@ -1,0 +1,6 @@
+Metric,C_tec (operating model),F_inst (institutional),C_total (full)
+Mean AC (EUR/pax),0.9149,0.3793,1.2942
+Mean MC (EUR/pax),0.4166,0.0000,0.4166
+Returns to density (RTD),2.178,N/A (fixed),N/A
+Cost share,0.7070,0.2930,1.0000
+Satisfies Shephard's properties,Yes,Not applicable (non-technological),No (concavity fails in 10/21 obs)

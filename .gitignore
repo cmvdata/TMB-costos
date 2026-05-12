@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Datos internos TMB (no redistribuir)
+costos_fmb.xlsx
+operativos_fmb.xlsx
+tmb_metro_resultados_2023_2025/
+
+# LaTeX
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+
+# Claude Code
+.claude/
