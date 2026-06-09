@@ -376,7 +376,7 @@ for x1, x2 in [(2.55, 2.95), (5.05, 5.45), (7.55, 7.95)]:
                           color="#333333", lw=1.5)
     ax.add_patch(arr)
 
-pol = FancyBboxPatch((1.0, 0.3), 8.0, 1.4,
+pol = FancyBboxPatch((0.2, 0.3), 9.6, 1.4,
                      boxstyle="round,pad=0.08",
                      linewidth=1.2, edgecolor="#7A2D2D",
                      facecolor="#E8C3A8", alpha=0.85)
